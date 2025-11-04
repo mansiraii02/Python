@@ -1,37 +1,41 @@
-# ☕ Coffee Bot – Interactive Python Quiz App
+# ☕ Coffee Ordering Chatbot  
 
-**Coffee Bot** is a fun, GUI-based Python app built with **Tkinter** that lets you place a virtual coffee order interactively.  
-Choose between **Black**, **Regular**, or **Both** coffees — and customize everything from size, sweetener, milk type, and ice!
+## 📖 Overview  
+The **Coffee Ordering Chatbot** is a Python-based console application that simulates a real-world coffee ordering experience. It interactively guides users through selecting and customizing their coffee, including options for type, size, milk, sweetener, and ice preferences.  
 
----
-
-## 🚀 Features
-
-- Simple, clean **Tkinter GUI**
-- Interactive coffee selection flow  
-- Options for coffee type, size, milk, sweetener, and ice  
-- “Start Over” button to restart anytime  
-- Works both **locally on macOS** and **in GitHub Codespaces**
+This project demonstrates the use of **conditional statements, user input handling, and control flow** in Python to build an engaging, menu-driven chatbot.  
 
 ---
 
-## 🧩 Requirements
-
-- **Python 3.10+**
-- **Tkinter**
-- **xvfb** (for virtual display inside Codespaces)
+## 🎯 Features  
+- Interactive console-based ordering system  
+- Multiple coffee options:  
+  - Black Coffee  
+  - Regular Coffee  
+  - Both  
+- Customization for each order:  
+  - Size selection (Medium / Large)  
+  - Sweetener selection (Stevia / Sugar / None)  
+  - Milk type for regular coffee (Soy / Almond / Regular)  
+  - Ice preference (Yes / No)  
+- Input validation for invalid entries  
+- Order confirmation message at the end  
 
 ---
 
-## ⚙️ Setup Instructions (for GitHub Codespaces on Mac)
+## 🧩 Technologies Used  
+- **Programming Language:** Python 3  
+- **Core Concepts:**  
+  - Conditional statements (`if`, `elif`, `else`)  
+  - String handling (`strip()`, `lower()`)  
+  - Console I/O (`input()`, `print()`)  
 
-> By default, GitHub Codespaces has no GUI display.  
-> Follow these steps to make your Tkinter app run smoothly.
+---
 
-### 1️⃣ Update and install dependencies
-Open the **Codespaces Terminal** and run:
+## ⚙️ How to Run  
 
-```bash
-sudo apt-get update
-sudo apt-get install -y python3-tk xvfb
-# Python
+1. **Clone or download** this repository.  
+2. Open a terminal or IDE (like VS Code, PyCharm, or IDLE).  
+3. Navigate to the project folder.  
+4. Run the Python script using:  
+python coffee_bot.py
